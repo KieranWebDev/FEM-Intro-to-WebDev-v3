@@ -5,17 +5,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coffee Masters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <nav>
         <div class="logo-container">
-            <img src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+            <img class="logo" src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
                 alt="cofee-maker-logo">
+            <h4 class="logo-text">Coffee Makers</h4>
         </div>
     </nav>
+    <main>
+        <div class="grid-container">
+
+            <section class="items-section left">
+                <h3 class="items">Items</h3>
+
+            </section>
+
+            <div class="right">
+                <section class="name-section">
+                    <h3 class="name">Name</h3>
+                    <div class="label-and-input">
+                        <label for="name" class="label">Name for order</label>
+                        <input type="text" id="name" class="input" placeholder="Americano">
+                    </div>
+                </section>
+                <section class="payment-section">
+                    <h3 class="payment">Payment</h3>
+                    <div class="label-and-input">
+                        <label for="card-num" class="label">Card Number</label>
+                        <input type="text" id="card-num" class="input" placeholder="1213 456">
+
+                        <label for="CCV" class="label-CCV"></label>
+                        <input type="text" id="CCV" class="input" placeholder="432">
+                    </div>
+
+
+                </section>
+            </div>
+        </div>
+    </main>
+
 </body>
 
 </html>
