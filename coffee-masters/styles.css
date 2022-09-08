@@ -130,6 +130,11 @@ main {
 }
 .button {
   width: 95%;
-  margin: 0 auto;
+  margin: 1.3rem auto;
   border-radius: 30px;
+  padding: 1rem;
+  border: none;
+  background-color: chocolate;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
