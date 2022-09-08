@@ -5,7 +5,7 @@
 }
 
 .calculator-container {
-  width: 25%;
+  width: 20%;
   margin: 0 auto;
   margin-top: 3rem;
 }
@@ -14,8 +14,12 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   border: 1px black solid;
   font-size: 2rem;
-  gap: none;
+  font-weight: 500;
   justify-content: center;
+}
+button {
+  font-size: 2rem;
+  font-weight: 500;
 }
 .calc-screen {
   height: 50px;
