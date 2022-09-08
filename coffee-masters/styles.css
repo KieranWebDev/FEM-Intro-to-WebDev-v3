@@ -137,4 +137,5 @@ main {
   background-color: chocolate;
   font-size: 1.3rem;
   font-weight: 600;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
