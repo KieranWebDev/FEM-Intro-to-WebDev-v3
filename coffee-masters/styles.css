@@ -53,16 +53,37 @@ main {
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
-
+.left,
+.name-section,
+.payment-section {
+  border-radius: 8px;
+  background-color: blanchedalmond;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.indiv-item-top-col {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-weight: 800;
+  padding: 0.5rem;
+}
+.indiv-item-num {
+  margin-right: 1rem;
+}
+.indiv-item-extra {
+  padding-left: 3.8rem;
+  color: brown;
+}
+.indiv-item-extra:last-child {
+  border-bottom: 1px solid brown;
+  padding-bottom: 0.7rem;
+}
 .right {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-}
-.name-section,
-.payment-section {
-  border: 1px solid black;
-  border-radius: 8px;
 }
 
 .label-and-input {
@@ -79,6 +100,7 @@ main {
   top: -10px;
   padding: 0 5px;
   font-size: 1.1rem;
+  background-color: blanchedalmond;
 }
 
 .input {
@@ -90,4 +112,24 @@ main {
   width: 620px;
   padding-left: 1.8rem;
   margin-bottom: 1rem;
+  background-color: blanchedalmond;
+}
+
+.payment-total {
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 8rem;
+}
+.payment-categories {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+.payment-categories:last-child {
+  font-weight: 800;
+}
+.button {
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 30px;
 }
