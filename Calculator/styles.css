@@ -5,7 +5,7 @@
 }
 
 .calculator-container {
-  width: 20%;
+  width: 300px;
   margin: 0 auto;
   margin-top: 3rem;
 }
@@ -29,7 +29,7 @@ button {
   border: black 1px solid;
   text-align: end;
 }
-.number {
+.calc-buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,11 +38,11 @@ button {
   height: 80px;
   background-color: rgb(215, 211, 211);
 }
-.number:hover {
+.calc-buttons:hover {
   background-color: rgb(156, 152, 152);
   cursor: pointer;
 }
-.number:active {
+.calc-buttons:active {
   background-color: rgb(77, 75, 75);
   cursor: pointer;
 }
