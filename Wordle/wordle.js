@@ -27,6 +27,9 @@ async function init() {
     currentRow++;
     currentGuess = '';
   }
+  const res = await fetch('https://words.dev-apis.com/word-of-the-day');
+  const resObj = await res.json();
+  const word = resObj.word.toUpperCase;
 
   function backspace() {
     currentGuess = currentGuess.substring(0, currentGuess.length - 1);
