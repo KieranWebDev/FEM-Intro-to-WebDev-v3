@@ -21,3 +21,21 @@ I started with their Beginner learning path with the idea of refreshing and ceme
   <img src="https://user-images.githubusercontent.com/82081817/187060731-28e7ba92-d382-4ddd-afbe-a64731d5952e.png" width="50%" />
 </p>
 
+- padding = inside border
+- margin = outside border
+- Take advantage of Devtools to mess around with potential CSS changes.
+- can use classes as a form of documentation/labelling if you name them carefully
+
+## Programming fundamentals - Javascript
+
+- aim is not to be clever, but to be simple and communicate clearly. Code is communication.
+- Variable names are generally nouns
+- Function names are usually verbs
+- be careful with using global scope. It’s a very powerful tool and we should adhere to the principal of least power
+- Reference Error usually refers to as Scope error
+- technically, a method is a function on an object
+
+## Talking to servers
+
+- JSON.parse      changes JSON file into object that be used in JS
+- JSON.stringify. changes JS value into JSON string so can be sent to API
